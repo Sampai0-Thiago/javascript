@@ -28,6 +28,36 @@
     </div>
   </section>
 
+  <div class="separar"></div>
+
+  <section class="casamento">
+    <h2 id="casada">Casada?</h2>
+
+    <div class="dados">
+      <label for="nome">Nome:</label>
+      <input id="nome" name="nome" type="text">
+
+      <label for="estadoCivil">Estado Civil:</label>
+      <input id="estadoCivil" name="estadocivil" type="text">
+
+      <label for="sexo">Sexo:</label>
+
+      <div class="masculino">
+        <label for="masculino">Masculino</label>
+        <input id="masculino" name="sexo" type="radio" value="Masculino">
+      </div>
+      <div class="feminino">
+        <label for="feminino">Feminino</label>
+        <input id="feminino" name="sexo" type="radio" value="Feminino">
+      </div>
+      <div id="anosCasada">
+        <label for="tempoCasada">Quantos anos de casamento?</label>
+        <input id="tempoCasada" name="tempoCasada" type="number" min="0">
+        <textarea id="resumoCasamento" readonly></textarea>
+      </div>
+    </div>
+  </section>
+
   <script src="/script.js"></script>
 </body>
 
