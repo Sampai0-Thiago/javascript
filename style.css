@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*=========================================*/
+.square {
+  background-color: blueviolet;
+}
+
+ 
+.math{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem ;
+  align-items: center;
+}
+
+.math input{
+  text-align: center;
+  font-size: 15px;
+}
+
+h2{
+ color: hsl(271, 76%, 53%);
+ margin: 1px 0;
+}
+
+.label{  
+  color:  hsl(271, 76%, 53%);
+  font-size: 25px;
+  display: flex;
+
+}
+
+
+.resultado{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: center;
+  height: 110px;
+  width: 70%;
+  padding: 1px;
+  gap: 0.3rem;
+}
+
+.resultado button{
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.resultado textarea{
+ display: none;
+  width: 398px;
+  height: 54px;
+  text-align: center;
+  font-size: 18px;
+}
